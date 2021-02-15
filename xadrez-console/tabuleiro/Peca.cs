@@ -1,18 +1,18 @@
 ﻿namespace tabuleiro
 {
-    class Peca
+    class peca
     {
-        public Posicao Posicao { get; set; }
-        public Cor Cor { get; protected set; }
-        public int QtdeMovimentos { get; protected set; }
-        public Tabuleiro Tab { get; protected set; }
+        public Posicao posicao { get; set; }
+        public Cor cor { get; protected set; }
+        public int qtdeMovimentos { get; protected set; }
+        public Tabuleiro tab { get; protected set; }
 
-        public Peca(Tabuleiro tab, Cor cor)
+        public peca(Tabuleiro tab, Cor cor)
         {
-            this.Posicao = null;
-            this.Tab = tab;
-            this.Cor = cor;
-            this.QtdeMovimentos = 0;
+            this.posicao = null;
+            this.tab = tab;
+            this.cor = cor;
+            this.qtdeMovimentos = 0;
         }
     }
 
