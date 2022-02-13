@@ -15,6 +15,7 @@ namespace xadrez
             turno = 1;
             jogadorAtual = Cor.Branca;
             colocarPecas();
+
         }
 
         private void colocarPecas()
