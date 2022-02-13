@@ -1,7 +1,7 @@
 ﻿using System;
 using tabuleiro;
 
-namespace xadrez_console
+namespace  xadrez_console
 {
     class Tela
     {
@@ -28,7 +28,7 @@ namespace xadrez_console
             }
             Console.WriteLine("  a b c d e f g h");
         }
-        public static void imprimirPeca(peca peca)
+        public static void imprimirPeca(Peca peca)
         {
             if(peca.cor == Cor.Branca)
             {
